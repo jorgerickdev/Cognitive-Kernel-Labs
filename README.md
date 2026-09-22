@@ -18,10 +18,31 @@ Cada módulo ha sido abordado bajo una política estricta de **fricción bare-me
 *   **Filosofía de Doble Sombrero:** Cada mecanismo de detección inteligente desarrollado en Ring 0 es posteriormente atacado por payloads mutacionales avanzados en Assembly para evaluar su robustez matemática.
 
 ---
-
 ## 🗺️ MAPA DE RUTA DE OPERACIONES (8 MESES)
 
-[MÓDULO 1: RING 0 TELEMETRÍA] ──> [MÓDULO 2: MODELOS NATIVOS] ──> [MÓDULO 3: ADVERSARIAL ATTACKS] ──> [MÓDULO 4: INMUNIZACIÓN](Hooks en C & Syscalls)           (Inferencia Matemática)          (Assembly Polimórfico)         (Hardening & Ejecución)
+```mermaid
+flowchart TD
+    %% Definición de Estilos Generales
+    classDef default fill:#1f2328,stroke:#30363d,stroke-width:2px,color:#e6edf3,font-family:monospace;
+    classDef highlight fill:#21262d,stroke:#f0883e,stroke-width:2px,color:#f0883e,font-family:monospace;
+
+    %% Nodos del Flujo
+    M1["📁 MÓDULO 1: RING 0 TELEMETRÍA<br><small>Hooks en C & Syscalls</small>"]
+    M2["📁 MÓDULO 2: MODELOS NATIVOS<br><small>Inferencia Matemática</small>"]
+    M3["📁 MÓDULO 3: ADVERSARIAL ATTACKS<br><small>Assembly Polimórfico</small>"]
+    M4["📁 MÓDULO 4: INMUNIZACIÓN<br><small>Hardening & Ejecución</small>"]
+
+    %% Direccionamiento de Rutas
+    M1 ──> M2
+    M2 ──> M3
+    M3 ──> M4
+
+    %% Aplicar Estilos
+    class M1,M2,M3,M4 default;
+```
+
+---
+
 ### 📁 Módulo 1: "Sub-Hooking" y Telemetría del Kernel en C (Mes 1-2)
 *Enfoque: Captura e intercepción de flujos de ejecución a bajo nivel sin librerías externas.*
 
