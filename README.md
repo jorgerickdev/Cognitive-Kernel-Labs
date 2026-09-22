@@ -1,14 +1,11 @@
 # Cognitive-Kernel-Labs: AI-Driven Ring 0 Vulnerability and Defense Research
 
-<!-- BADGES ADVERSARIOS -->
-![Kernel Level](https://shields.io)
-![AI Infiltration](https://shields.io)
-![Status](https://shields.io)
+`📍 Ring 0: Bare-Metal` &nbsp;&nbsp;•&nbsp;&nbsp; `🧠 AI Engine: Native C Inference` &nbsp;&nbsp;•&nbsp;&nbsp; `🗓️ Operation: Kicking Off January 2027`
 
 > ### 🚀 SYSTEM NOTICE: OPERATION SCHEDULED FOR JANUARY 2027
 > **"Breaking into the low-level frontier. This repository formally kicks off in January 2027. Initial architecture blueprints and telemetry ingestion pipelines are currently under locked-down preparation."**
 > 
-> *Traducción:* Irrumpiento en la frontera del bajo nivel. Este repositorio arranca formalmente en enero de 2027. Los planos iniciales de arquitectura y los pipelines de ingesta de telemetría están actualmente en preparación bajo llave.
+> *Traducción:* Irrumpiendo en la frontera del bajo nivel. Este repositorio arranca formalmente en enero de 2027. Los planos iniciales de arquitectura y los pipelines de ingesta de telemetría están actualmente en preparación bajo llave.
 
 ---
 
